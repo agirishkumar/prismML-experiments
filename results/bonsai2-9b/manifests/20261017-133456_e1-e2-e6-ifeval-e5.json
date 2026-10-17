@@ -1,0 +1,66 @@
+{
+  "model": "bonsai2-9b",
+  "family": "bonsai2",
+  "size": "9b",
+  "repo": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+  "file": "Ternary-Bonsai-2-9B-PQ2_0.gguf",
+  "ref": null,
+  "experiments": [
+    "e1",
+    "e2",
+    "e6",
+    "ifeval",
+    "e5"
+  ],
+  "started": "2026-10-17T13:34:56-0400",
+  "runtime": "version: 0.2.0-dev (build 10777, commit e3de71522)",
+  "repo_commit": "uncommitted",
+  "baseline": {
+    "vram_used_mib": 41,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "driver": "595.99.02",
+    "vram_total_mib": 6144,
+    "idle_power_w": 16.23
+  },
+  "power_csv": "power_20261017-133456.csv",
+  "model_file": "Ternary-Bonsai-2-9B-PQ2_0.gguf",
+  "sha256": "7a89ab48f5038c704480f60781f9b8d4035351f5f6beb7d11fad80001fde23f9",
+  "size_mb": 2416.9,
+  "cooldown": {
+    "e1": [
+      0.0,
+      51
+    ],
+    "e2": [
+      0.0,
+      59
+    ],
+    "e6": [
+      15.1,
+      60
+    ],
+    "ifeval": [
+      35.2,
+      60
+    ],
+    "e5": [
+      30.2,
+      60
+    ]
+  },
+  "timings_s": {
+    "e1": 24.0,
+    "e2": 170.7,
+    "e6": 1308.5,
+    "ifeval": 2221.1,
+    "e5": 17.8
+  },
+  "status": "ok",
+  "cleanup": {
+    "vram_after_mib": 41,
+    "vram_back_to_baseline": true,
+    "model_deleted": true
+  },
+  "limit": null,
+  "finished": "2026-10-17T14:39:53-0400"
+}

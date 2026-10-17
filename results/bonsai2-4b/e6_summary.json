@@ -1,0 +1,41 @@
+{
+  "simple": {
+    "n": 400,
+    "accuracy": 0.9075,
+    "extra_calls": 2,
+    "items_with_extra_calls": 1,
+    "reasoning_leaks": 0
+  },
+  "multiple": {
+    "n": 200,
+    "accuracy": 0.915,
+    "extra_calls": 1,
+    "items_with_extra_calls": 1,
+    "reasoning_leaks": 0
+  },
+  "irrelevance": {
+    "n": 240,
+    "accuracy": 0.8333,
+    "extra_calls": 42,
+    "items_with_extra_calls": 40,
+    "reasoning_leaks": 0
+  },
+  "energy": {
+    "seconds": 805.1,
+    "j_raw": 74195.1,
+    "j_net": 56548.0,
+    "idle_w": 21.92,
+    "avg_power_w": 92.1,
+    "max_temp_c": 90.0,
+    "min_sm_clock_mhz": 1387.0,
+    "j_net_per_item": 67.319,
+    "j_net_per_correct": 75.802,
+    "j_net_per_output_token": 0.7389,
+    "correct": 746,
+    "items": 840,
+    "output_tokens": 76533,
+    "avg_sm_clock_mhz": 1656,
+    "pct_time_throttled": 0.0,
+    "sustained_gen_tps": 145.0
+  }
+}

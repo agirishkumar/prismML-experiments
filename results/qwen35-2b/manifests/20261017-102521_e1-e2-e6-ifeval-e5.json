@@ -1,0 +1,67 @@
+{
+  "model": "qwen35-2b",
+  "family": "qwen3.5",
+  "size": "2b",
+  "repo": "unsloth/Qwen3.5-2B-GGUF",
+  "file": "Qwen3.5-2B-Q8_0.gguf",
+  "fallback_file": "Qwen3.5-2B-Q4_K_M.gguf",
+  "ref": "qwen35-2b-bf16",
+  "experiments": [
+    "e1",
+    "e2",
+    "e6",
+    "ifeval",
+    "e5"
+  ],
+  "started": "2026-10-17T10:25:21-0400",
+  "runtime": "version: 0.2.0-dev (build 10777, commit e3de71522)",
+  "repo_commit": "uncommitted",
+  "baseline": {
+    "vram_used_mib": 41,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "driver": "595.99.02",
+    "vram_total_mib": 6144,
+    "idle_power_w": 19.45
+  },
+  "power_csv": "power_20261017-102521.csv",
+  "model_file": "Qwen3.5-2B-Q8_0.gguf",
+  "sha256": "1b04acba824817554f4ce23639bc8495ff70453b8fcb047900c731521021f2c1",
+  "size_mb": 2012.0,
+  "cooldown": {
+    "e1": [
+      0.0,
+      60
+    ],
+    "e2": [
+      0.0,
+      59
+    ],
+    "e6": [
+      5.0,
+      60
+    ],
+    "ifeval": [
+      30.2,
+      60
+    ],
+    "e5": [
+      30.2,
+      60
+    ]
+  },
+  "timings_s": {
+    "e1": 31.7,
+    "e2": 85.2,
+    "e6": 799.3,
+    "ifeval": 2038.2,
+    "e5": 10.0
+  },
+  "status": "ok",
+  "cleanup": {
+    "vram_after_mib": 41,
+    "vram_back_to_baseline": true,
+    "model_deleted": true
+  },
+  "limit": null,
+  "finished": "2026-10-17T11:16:02-0400"
+}

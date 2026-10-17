@@ -1,0 +1,9 @@
+{
+  "ref": "qwen35-2b-bf16",
+  "file": "Qwen3.5-2B-BF16.gguf",
+  "ctx": 1024,
+  "chunks": 20,
+  "kld_file_gb": 5.08,
+  "ppl": 10.9374,
+  "ppl_err": 0.30184
+}

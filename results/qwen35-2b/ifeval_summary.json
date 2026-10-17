@@ -1,0 +1,30 @@
+{
+  "strict_prompt": 0.6821,
+  "strict_instruction": 0.7662,
+  "loose_prompt": 0.7227,
+  "loose_instruction": 0.8022,
+  "n": 541,
+  "max_tokens": 2048,
+  "mean_completion_tokens": 453.1,
+  "truncated_rate": 0.1035,
+  "loop_rate": 0.1201,
+  "reasoning_leaks": 0,
+  "energy": {
+    "seconds": 2033.8,
+    "j_raw": 186233.3,
+    "j_net": 146676.2,
+    "idle_w": 19.45,
+    "avg_power_w": 91.6,
+    "max_temp_c": 89.0,
+    "min_sm_clock_mhz": 1417.0,
+    "j_net_per_item": 271.121,
+    "j_net_per_correct": 397.496,
+    "j_net_per_output_token": 0.5983,
+    "correct": 369,
+    "items": 541,
+    "output_tokens": 245138,
+    "avg_sm_clock_mhz": 1515,
+    "pct_time_throttled": 0.0,
+    "sustained_gen_tps": 121.9
+  }
+}

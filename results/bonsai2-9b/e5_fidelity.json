@@ -1,0 +1,9 @@
+{
+  "model": "bonsai2-9b",
+  "mode": "ppl_only",
+  "ref": null,
+  "ctx": 1024,
+  "chunks": 20,
+  "ppl": 14.4241,
+  "ppl_err": 0.45251
+}

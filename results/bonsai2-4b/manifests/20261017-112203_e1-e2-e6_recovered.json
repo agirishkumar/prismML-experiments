@@ -1,0 +1,16 @@
+{
+  "model": "bonsai2-4b",
+  "experiments": [
+    "e1",
+    "e2",
+    "e6"
+  ],
+  "status": "interrupted during ifeval (user stop); e1/e2/e6 complete",
+  "power_csv": "power_20261017-112203.csv",
+  "idle_power_w": 21.92,
+  "idle_power_note": "preflight value not logged; estimated from first 2 s of sampler (pre-load)",
+  "model_file": "Ternary-Bonsai-2-4B-PQ2_0.gguf",
+  "runtime": "version: 0.2.0-dev (build 10777, commit e3de71522)",
+  "repo_commit": "uncommitted",
+  "recovered_at": "2026-10-17T11:45:58-0400"
+}

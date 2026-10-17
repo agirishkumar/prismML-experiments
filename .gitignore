@@ -1,0 +1,25 @@
+# Planning notes (kept local)
+PLAN.md
+
+# Downloaded models, datasets, reference logits — large and re-downloadable
+models/
+data/
+refs/
+*.gguf
+*.kld
+*.part
+
+# Raw server / tool logs and power traces (summaries in results/ are committed)
+logs/
+*.log
+results/**/raw/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

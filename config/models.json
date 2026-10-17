@@ -1,0 +1,37 @@
+{
+  "bonsai2-2b": {
+    "family": "bonsai2", "size": "2b",
+    "repo": "prism-ml/Ternary-Bonsai-2-2B-gguf", "file": "Ternary-Bonsai-2-2B-PQ2_0.gguf",
+    "ref": "qwen35-2b-bf16"
+  },
+  "bonsai2-4b": {
+    "family": "bonsai2", "size": "4b",
+    "repo": "prism-ml/Ternary-Bonsai-2-4B-gguf", "file": "Ternary-Bonsai-2-4B-PQ2_0.gguf",
+    "ref": "qwen35-4b-bf16"
+  },
+  "bonsai2-9b": {
+    "family": "bonsai2", "size": "9b",
+    "repo": "prism-ml/Ternary-Bonsai-2-9B-gguf", "file": "Ternary-Bonsai-2-9B-PQ2_0.gguf",
+    "ref": null
+  },
+  "qwen35-2b": {
+    "family": "qwen3.5", "size": "2b",
+    "repo": "unsloth/Qwen3.5-2B-GGUF", "file": "Qwen3.5-2B-Q8_0.gguf",
+    "fallback_file": "Qwen3.5-2B-Q4_K_M.gguf",
+    "ref": "qwen35-2b-bf16"
+  },
+  "qwen35-4b": {
+    "family": "qwen3.5", "size": "4b",
+    "repo": "unsloth/Qwen3.5-4B-GGUF", "file": "Qwen3.5-4B-Q8_0.gguf",
+    "fallback_file": "Qwen3.5-4B-Q4_K_M.gguf",
+    "ref": "qwen35-4b-bf16"
+  },
+  "qwen35-2b-bf16": {
+    "family": "qwen3.5", "size": "2b", "role": "reference",
+    "repo": "unsloth/Qwen3.5-2B-GGUF", "file": "Qwen3.5-2B-BF16.gguf"
+  },
+  "qwen35-4b-bf16": {
+    "family": "qwen3.5", "size": "4b", "role": "reference",
+    "repo": "unsloth/Qwen3.5-4B-GGUF", "file": "Qwen3.5-4B-BF16.gguf"
+  }
+}
